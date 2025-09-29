@@ -7,9 +7,11 @@ class Deck{
     public:
         Deck();
         void shuffle();
+        void addCard();
 
     private:
         int cardCount;
+        int cards[];
 
 };
 
