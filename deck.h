@@ -1,7 +1,7 @@
 #ifndef DECK_H
 #define DECK_H
 
-#include "Card.h"
+#include "card.h"
 #include <algorithm> // Needed for std::equal later
 
 const int DECK_SIZE = 52; // Define the fixed size of the deck

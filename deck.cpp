@@ -1,4 +1,4 @@
-#include "Deck.h"
+#include "deck.h"
 #include <iostream>
 #include <algorithm> // Required for std::equal
 
