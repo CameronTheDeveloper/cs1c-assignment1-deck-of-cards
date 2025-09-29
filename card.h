@@ -14,9 +14,9 @@ const int TOTAL_SUITS = 4;
 
 // Ranks (1 to 13)
 const int RANK_ACE = 1;
+const int RANK_TWO = 2; // Added for clarity in initialization loop
 const int RANK_KING = 13;
 const int TOTAL_RANKS = 13;
-
 
 // Helper functions for conversion (implemented in Card.cpp)
 std::string suitToString(int s);
@@ -24,13 +24,12 @@ std::string rankToString(int r);
 
 class Card {
 private:
-    // Now using int to represent suit and rank
     int suit_;
     int rank_;
 
 public:
     // Constructor
-    Card(int s, int r);
+    Card(int s = 0, int r = 0); // Default constructor needed for array initialization
 
     // Methods
     std::string toString() const;
