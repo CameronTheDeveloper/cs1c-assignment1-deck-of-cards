@@ -10,8 +10,8 @@ class Deck{
         void addCard();
 
     private:
-        int cardCount;
-        int cards[];
+        int cardCount_;
+        int cards_[];
 
 };
 
